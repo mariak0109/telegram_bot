@@ -3,7 +3,8 @@ from telebot import types
 import random
 import os
 
-TOKEN = os.environ.get("TOKEN")
+# ВСТАВИЛА ТОКЕН ПРЯМО В КОД, СУКА!
+TOKEN = "8930361189:AAGDVIZ-rpWUvz8Q7lNzvhcvZDyDBp7h1T4"
 bot = telebot.TeleBot(TOKEN)
 
 WORDS = {
